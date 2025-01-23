@@ -13,12 +13,12 @@
   width: 1040px;
   height: 447px;
   margin: 120px 163px 183px;
-  border: 1px solid var(--blue);
+  /* border: 1px solid var(--blue); */
   position: absolute; /*para o elemento filho ficar dentro da caixa do elemento pai, que deve ficar como relative*/
 }
 
 .header{
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 680px;
   height: 327px;
   margin: 0 180px;
@@ -30,7 +30,7 @@
 }
 
 .text{
-  border: 1px solid yellowgreen;
+  /* border: 1px solid yellowgreen; */
   height: 159px;
   margin-top: 50px ;
 }
@@ -48,6 +48,7 @@ h2{
   font: var(--title-lg);
   color: var(--gray-600);
   text-align: center;
+  margin: 8px 0 20px;
 }
 
 p{
@@ -55,4 +56,35 @@ p{
   color: var(--gray-400);
   text-align: center;
   
+}
+
+.container{
+  display: flex;
+  /* border: 1px solid white; */
+  width: 754px;
+  height: 40px;
+  margin:80px 143px 0;
+  position: relative;
+  gap: 16px;
+  .tag{
+    /* width: 114px; */
+    /* height: 40px; */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px ;
+    
+    /* position: absolute; */
+    background-color: var(--gray-300);
+    border-radius: 20px ;
+    img{
+      width: 24px;
+    }
+    span{
+      font: var(--text-md);
+      color: var(--gray-500);
+    }
+  }
+  
+
 }
