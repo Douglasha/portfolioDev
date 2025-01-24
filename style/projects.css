@@ -1,14 +1,12 @@
 .projects{
-  border: 1px solid white;
   width: 1366px;
   height: 917px;
   margin: 0 80px;
-  /* position: absolute; */
+  position: absolute;
   
 
   background-color: var(--gray-200);
   .myWork{
-    border: 1px solid white;
     width: 1040px;
     height: 61px;
     margin: 72px 163px 56px;
@@ -24,7 +22,9 @@
     }
   }
   .works{
-    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
     width: 1040px;
     height: 584px;
     margin: 0 163px 144px;
