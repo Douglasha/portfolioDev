@@ -1,11 +1,20 @@
 .intro{
   max-width: 1366px;
   height: 750px;
-  margin: 80px 80px;
+  margin: 80px 80px 0;
 
   background-image:url(../assets/Background_Intro.png);
   background-size: cover; /*Cobre área visivel da caixa*/
   position: relative;
+  .doubleDown{
+    position: absolute;
+    bottom: 57px;
+    left: 667px;
+    img{
+      width: 32px;
+    }
+    
+  }
  
 }
 
