@@ -2,7 +2,8 @@
   width: 1366px;
   height: 917px;
   margin: 0 80px;
-  position: absolute;
+  overflow: hidden;
+  /* position: absolute; */
   
 
   background-color: var(--gray-200);

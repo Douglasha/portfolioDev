@@ -1,0 +1,56 @@
+.services{
+  position: relative;
+  width: 1366px;
+  height: 480px;
+  margin: 0 80px;
+  overflow: hidden;
+  
+  background-color: var(--gray-100);
+  .myWork{
+    width: 1040px;
+    height: 61px;
+    margin: 88px 163px 56px;
+    text-align: center;
+    span{
+      font: var(--subtitle);
+      color: var(--red)
+    }
+    h3{
+      font: var(--title-md);
+      color: var(--gray-600);
+      margin-top: 8px;
+    }
+  }
+
+  .grid{
+    display: flex;
+    width: 888px;
+    height: 155px;
+    margin: 0 239px;
+    gap: 24px;
+    .card{
+      width: 280px;
+      height: 155px;
+      border: 1px solid var(--gray-200);
+      border-radius: 12px;
+
+      img{
+        width: 48px;
+        margin: 20px;
+      }
+      span{
+        margin: 20px;
+        font: var(--title-sm);
+        color: var(--gray-600);
+      }
+
+      p{
+        margin: 8px 20px 20px;
+        text-align: left;
+        font: var(--text-sm);
+        color: var(--gray-600);
+      }
+    }
+  }
+
+}
