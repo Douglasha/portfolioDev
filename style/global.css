@@ -26,6 +26,7 @@
   --subtitle: 400 20px/120% var(--font-inconsolata);
   --text-md: 400 16px/140% var(--font-maven);
   --text-sm: 400 14px/140% var(--font-maven);
+  --text-link: 500 16px/140% var(--font-maven);
   
 }
 
